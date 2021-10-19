@@ -81,7 +81,7 @@ namespace PetShoppe.Controllers
 
 
     [HttpDelete("{catId}")]
-    public async Task<ActionResult<Cat>> DeleteCat(int catId)
+    public ActionResult<Cat> DeleteCat(int catId)
     {
       try
       {
